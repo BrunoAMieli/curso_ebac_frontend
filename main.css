@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    padding: 14px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 54px;
+    font-family: Baskerville;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: Baskerville;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 100%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    border-bottom: 1px solid #6e6e73;
+}
+
+header .container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header .container nav {
+    margin-left: 29%;
+    max-width: 10%;
+    width: 100%;
+    display: flex;
+}
+
+header .container nav li {
+    display: inline;
+    margin: 0 12px;
+}
+
+header .container nav a {
+    text-decoration: none;
+    color: #6e6e73;
+    font-size: 24px;
+    font-family: Baskerville;
+}
+
+header .container nav a:hover {
+    cursor: pointer;
+}
+
+#logo {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 32px;
+}
+
+section h2 {
+    color: black;
+    font-size: 24px;
+    font-family: Zapfino;
+    margin-top: 24px;
+}
+
+section .container-about {
+    display: flex;
+    align-items: center;
+}
+
+section .container-about img {
+    height: 550px;
+    margin: 0% 5%;
+}
+
+form input, 
+form textarea, 
+form button {
+    border: 1px solid #494949;
+    border-radius: 12px;
+    width: 480px;
+    height: 56px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #6e6e73;
+}
+form input::placeholder, 
+form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    color: #6e6e73;
+}
+
+form button {
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+form button:hover {
+    background-color: #494949;
+    color: white;
+    cursor: pointer;
+}
+
+form textarea {
+    border-radius: 3px;
+    padding-top: 16px;
+    padding-right: 16px;
+    height: 112px;
+    resize: none;
+}
+
+.container .contact-methods {
+    margin: 0 35%;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #f5f5f7;
+    border-top: 1px solid #6e6e73;
+    color: black;
+}
+
+footer p {
+    font-family: Baskerville;
+}
